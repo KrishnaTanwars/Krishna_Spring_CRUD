@@ -6,6 +6,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/students")
+@CrossOrigin(origins = "http://localhost:5173")
 public class StudentController {
 
     private final StudentService service;

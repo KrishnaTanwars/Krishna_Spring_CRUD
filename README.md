@@ -66,3 +66,29 @@ mvnw.cmd spring-boot:run
 ```bash
 mvnw.cmd test
 ```
+
+## React Frontend
+
+The React frontend is inside the `frontend` folder.
+
+Start the Spring Boot backend first:
+
+```bash
+mvnw.cmd spring-boot:run
+```
+
+Then start the React frontend in another terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+The frontend can create, view, update, and delete students through the Spring Boot API.
